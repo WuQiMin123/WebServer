@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/WebServer.dir/src/AsyncServer.cpp.o CMakeFiles/WebServer.dir/src/CServer.cpp.o CMakeFiles/WebServer.dir/src/CSession.cpp.o -o WebServer  -lpthread -lboost_system 
