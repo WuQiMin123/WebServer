@@ -12,7 +12,7 @@ void CServer::HandleAccept(shared_ptr<CSession> new_session, const boost::system
 		_sessions.insert(make_pair(new_session->GetUuid(), new_session));
 	}
 	else {
-		cout << "session accept failed, error is " << error.message() << endl;
+		cout << "session accept failed, error is " << error.message()<< endl;
 	}
 
 	StartAccept();
